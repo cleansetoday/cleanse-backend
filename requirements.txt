@@ -1,7 +1,6 @@
-
-fastapi>=0.115
-uvicorn>=0.34
-pandas>=1.5
-openpyxl>=3.0
-pydantic
-starlette
+fastapi>=0.110,<1
+uvicorn[standard]>=0.29,<0.31
+pandas>=2.0,<3
+openpyxl>=3.1,<4
+rapidfuzz>=3.0,<4
+pydantic>=2,<3
